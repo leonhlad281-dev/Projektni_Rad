@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt – Rustica Verde</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header>
+  <div class="nav-container">
+    <a href="index.html" class="logo">Rustica Verde</a>
+    <ul class="nav">
+      <li><a href="index.html">Početna</a></li>
+      <li><a href="o-kuci.html">O kući</a></li>
+      <li><a href="sadrzaji-galerija.html">Sadržaji i galerija</a></li>
+      <li><a href="cjenik.html">Cjenik</a></li>
+      <li><a href="kontakt.html" class="active">Kontakt</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="page-banner">
+  <h1>Kontakt</h1>
+</div>
+
+<main>
+  <div class="container">
+    <h2>Kontakt podaci</h2>
+    <ul>
+      <li>Telefon: <a href="tel:+385916134254">091 613 4254</a></li>
+      <li>Lokacija: Breznica, Hrvatska (46 km od Zagreba)</li>
+      <li>Check-in: 15:00 &middot; Check-out: 10:00</li>
+    </ul>
+
+    <h2>Pošaljite upit</h2>
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="ime">Ime i prezime</label>
+        <input type="text" id="ime" name="ime" placeholder="Ivan Horvat" required />
+      </div>
+      <div class="form-group">
+        <label for="dolazak">Datum dolaska</label>
+        <input type="date" id="dolazak" name="dolazak" required />
+      </div>
+      <div class="form-group">
+        <label for="odlazak">Datum odlaska</label>
+        <input type="date" id="odlazak" name="odlazak" required />
+      </div>
+      <div class="form-group">
+        <label for="osobe">Broj osoba</label>
+        <select id="osobe" name="osobe">
+          <option>1–2 osobe</option>
+          <option>3–5 osoba</option>
+          <option>6–8 osoba</option>
+          <option>9–10 osoba</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="kontakt-polje">Telefon ili email</label>
+        <input type="text" id="kontakt-polje" name="kontakt" placeholder="+385 9x xxx xxxx" required />
+      </div>
+      <div class="form-group">
+        <label for="poruka">Poruka (opcionalno)</label>
+        <textarea id="poruka" name="poruka" rows="4" placeholder="Posebni zahtjevi, pitanja..."></textarea>
+      </div>
+      <button type="submit" class="btn">Pošalji upit</button>
+    </form>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 Rustica Verde, Breznica</p>
+</footer>
+
+</body>
+</html>
